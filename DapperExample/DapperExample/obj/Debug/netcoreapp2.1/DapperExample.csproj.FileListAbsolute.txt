@@ -1,0 +1,17 @@
+C:\Users\Default\Desktop\DapperExample\DapperExample\obj\Debug\netcoreapp2.1\DapperExample.csproj.CoreCompileInputs.cache
+C:\Users\Default\Desktop\DapperExample\DapperExample\obj\Debug\netcoreapp2.1\DapperExample.AssemblyInfoInputs.cache
+C:\Users\Default\Desktop\DapperExample\DapperExample\obj\Debug\netcoreapp2.1\DapperExample.AssemblyInfo.cs
+C:\Users\Srikanth\source\repos\DapperExample\DapperExample\bin\Debug\netcoreapp2.1\DapperExample.deps.json
+C:\Users\Srikanth\source\repos\DapperExample\DapperExample\bin\Debug\netcoreapp2.1\DapperExample.runtimeconfig.json
+C:\Users\Srikanth\source\repos\DapperExample\DapperExample\bin\Debug\netcoreapp2.1\DapperExample.runtimeconfig.dev.json
+C:\Users\Srikanth\source\repos\DapperExample\DapperExample\bin\Debug\netcoreapp2.1\DapperExample.dll
+C:\Users\Srikanth\source\repos\DapperExample\DapperExample\bin\Debug\netcoreapp2.1\DapperExample.pdb
+C:\Users\Srikanth\source\repos\DapperExample\DapperExample\obj\Debug\netcoreapp2.1\DapperExample.csproj.CoreCompileInputs.cache
+C:\Users\Srikanth\source\repos\DapperExample\DapperExample\obj\Debug\netcoreapp2.1\DapperExample.RazorAssemblyInfo.cache
+C:\Users\Srikanth\source\repos\DapperExample\DapperExample\obj\Debug\netcoreapp2.1\DapperExample.RazorAssemblyInfo.cs
+C:\Users\Srikanth\source\repos\DapperExample\DapperExample\obj\Debug\netcoreapp2.1\DapperExample.AssemblyInfoInputs.cache
+C:\Users\Srikanth\source\repos\DapperExample\DapperExample\obj\Debug\netcoreapp2.1\DapperExample.AssemblyInfo.cs
+C:\Users\Srikanth\source\repos\DapperExample\DapperExample\obj\Debug\netcoreapp2.1\DapperExample.RazorTargetAssemblyInfo.cache
+C:\Users\Srikanth\source\repos\DapperExample\DapperExample\obj\Debug\netcoreapp2.1\DapperExample.dll
+C:\Users\Srikanth\source\repos\DapperExample\DapperExample\obj\Debug\netcoreapp2.1\DapperExample.pdb
+C:\Users\Srikanth\source\repos\DapperExample\DapperExample\obj\Debug\netcoreapp2.1\DapperExample.csprojAssemblyReference.cache
