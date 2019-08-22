@@ -80,11 +80,34 @@ namespace DapperExample.Repository
             Student _student = new Student();
             _student = newstudentDetails;
             string sql = "UPDATE tblStudent SET FirstName = @FN, LastName = @LN, Email = @E, Branch = @B, Phone = @Ph WHERE StudentID = @id;";
-
-            using (var conn = new SqlConnection(_configuration.GetConnectionString("SQLConnection")))
+            try
             {
-                conn.Open();
-                int affectedRows = conn.Execute(sql, new { FN = _student.FirstName, LN = _student.LastName, E = _student.Email, B = _student.Branch, Ph = _student.Phone, id = _student.StudentID });
+                using (var conn = new SqlConnection(_configuration.GetConnectionString("SQLConnection")))
+                {
+                    conn.Open();
+                    int affectedRows = conn.Execute(sql, new { FN = _student.FirstName, LN = _student.LastName, E = _student.Email, B = _student.Branch, Ph = _student.Phone, id = _student.StudentID });
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            } 
+        }
+
+        public void RemoveRecord(int id)
+        {
+            string sql = "DELETE FROM tblStudent WHERE StudentID = @SID;";
+            try
+            {
+                using (var conn = new SqlConnection(_configuration.GetConnectionString("SQLConnection")))
+                {
+                    conn.Open();
+                    int affectedRows = conn.Execute(sql, new {SID = id });
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
             }
         }
     }

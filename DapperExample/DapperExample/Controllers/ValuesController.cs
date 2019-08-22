@@ -63,6 +63,8 @@ namespace DapperExample.Controllers
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
+            StudentRepo repo = new StudentRepo(_config);
+            repo.RemoveRecord(id);
         }
     }
 }
