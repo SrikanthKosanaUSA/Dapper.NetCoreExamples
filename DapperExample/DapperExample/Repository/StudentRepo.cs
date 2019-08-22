@@ -55,5 +55,25 @@ namespace DapperExample.Repository
             }
            
         }
+
+        public void NewStudent(Student student)
+        {
+            Student _student = new Student();
+            _student = student;
+            string sql = "INSERT INTO tblStudent (FirstName, LastName, Email, Branch, Phone) VALUES (@FN, @LN, @E, @B, @Ph);";
+            try
+            {
+                using (var conn = new SqlConnection(_configuration.GetConnectionString("SQLConnection")))
+                {
+                    conn.Open();
+                    var affectedRows = conn.Execute(sql, new { FN = _student.FirstName, LN = _student.LastName, E = _student.Email, B = _student.Branch, Ph = _student.Phone });
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            
+        }
     }
 }

@@ -45,8 +45,10 @@ namespace DapperExample.Controllers
        
         // POST api/values
         [HttpPost]
-        public void Post([FromBody] string value)
+        public void Post(Student student)
         {
+            StudentRepo repo = new StudentRepo(_config);
+            repo.NewStudent(student);
         }
 
         // PUT api/values/5

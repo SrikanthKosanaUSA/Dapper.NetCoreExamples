@@ -17,6 +17,6 @@ namespace DapperExample.Models
 
         public string Branch { get; set; }
 
-        public long Phone { get; set; }
+        public string Phone { get; set; }
     }
 }

@@ -28,3 +28,4 @@ E:\GitHub projects\DapperExamples\Dapper.NetCoreExamples\DapperExample\DapperExa
 E:\GitHub projects\DapperExamples\Dapper.NetCoreExamples\DapperExample\DapperExample\obj\Debug\netcoreapp2.1\DapperExample.RazorTargetAssemblyInfo.cache
 E:\GitHub projects\DapperExamples\Dapper.NetCoreExamples\DapperExample\DapperExample\obj\Debug\netcoreapp2.1\DapperExample.dll
 E:\GitHub projects\DapperExamples\Dapper.NetCoreExamples\DapperExample\DapperExample\obj\Debug\netcoreapp2.1\DapperExample.pdb
+E:\GitHub projects\DapperExamples\Dapper.NetCoreExamples\DapperExample\DapperExample\obj\Debug\netcoreapp2.1\DapperExample.csprojAssemblyReference.cache
