@@ -52,9 +52,11 @@ namespace DapperExample.Controllers
         }
 
         // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        [HttpPut]
+        public void Put(Student student)
         {
+            StudentRepo repo = new StudentRepo(_config);
+            repo.UpdateStudentDetails(student);
         }
 
         // DELETE api/values/5
