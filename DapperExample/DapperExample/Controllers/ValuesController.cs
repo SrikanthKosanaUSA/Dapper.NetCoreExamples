@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using DapperExample.Models;
 using DapperExample.Repository;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -18,23 +19,30 @@ namespace DapperExample.Controllers
         {
             _config = config;
         }
-        // GET api/values
-        [HttpGet]
-        public IEnumerable<Models.Student> Get()
-        {
-            StudentRepo repo = new StudentRepo(_config);
-            IEnumerable<Models.Student> students = repo.ReadStudents();
-            return students;
-           // return new string[] { "value1", "value2" };
-        }
 
         // GET api/values/5
         [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
+        public Student Get(int id)
         {
-            return "value";
+            StudentRepo repo = new StudentRepo(_config);
+            var student = repo.SearchStudent(id);
+            return student;
+
+            //return "value";
         }
 
+        // GET api/values
+        [HttpGet]
+        public IEnumerable<Student> Get(int? id = null)
+        {
+
+            StudentRepo repo = new StudentRepo(_config);
+            IEnumerable<Student> students = repo.ReadStudents();
+            return students;
+            // return new string[] { "value1", "value2" };
+        }
+
+       
         // POST api/values
         [HttpPost]
         public void Post([FromBody] string value)

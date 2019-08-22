@@ -11846,11 +11846,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Srikanth\\source\\repos\\DapperExample\\DapperExample\\DapperExample.csproj",
+      "projectUniqueName": "E:\\GitHub projects\\DapperExamples\\Dapper.NetCoreExamples\\DapperExample\\DapperExample\\DapperExample.csproj",
       "projectName": "DapperExample",
-      "projectPath": "C:\\Users\\Srikanth\\source\\repos\\DapperExample\\DapperExample\\DapperExample.csproj",
+      "projectPath": "E:\\GitHub projects\\DapperExamples\\Dapper.NetCoreExamples\\DapperExample\\DapperExample\\DapperExample.csproj",
       "packagesPath": "C:\\Users\\Srikanth\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Srikanth\\source\\repos\\DapperExample\\DapperExample\\obj\\",
+      "outputPath": "E:\\GitHub projects\\DapperExamples\\Dapper.NetCoreExamples\\DapperExample\\DapperExample\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

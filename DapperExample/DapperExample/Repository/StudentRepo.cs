@@ -36,5 +36,24 @@ namespace DapperExample.Repository
             //    Console.WriteLine(e.Message);
             //}
         }
+
+        public Student SearchStudent(int id)
+        {
+            try
+            {
+                using (var conn = new SqlConnection(_configuration.GetConnectionString("SQLConnection")))
+                {
+                    conn.Open();
+                    var student = (conn.QuerySingle<Student>(@"Select * From tblStudent Where StudentID = @sid", new { sid = id }));
+                    return student;
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                return null;
+            }
+           
+        }
     }
 }

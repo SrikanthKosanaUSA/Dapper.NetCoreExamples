@@ -15,3 +15,16 @@ C:\Users\Srikanth\source\repos\DapperExample\DapperExample\obj\Debug\netcoreapp2
 C:\Users\Srikanth\source\repos\DapperExample\DapperExample\obj\Debug\netcoreapp2.1\DapperExample.dll
 C:\Users\Srikanth\source\repos\DapperExample\DapperExample\obj\Debug\netcoreapp2.1\DapperExample.pdb
 C:\Users\Srikanth\source\repos\DapperExample\DapperExample\obj\Debug\netcoreapp2.1\DapperExample.csprojAssemblyReference.cache
+E:\GitHub projects\DapperExamples\Dapper.NetCoreExamples\DapperExample\DapperExample\bin\Debug\netcoreapp2.1\DapperExample.deps.json
+E:\GitHub projects\DapperExamples\Dapper.NetCoreExamples\DapperExample\DapperExample\bin\Debug\netcoreapp2.1\DapperExample.runtimeconfig.json
+E:\GitHub projects\DapperExamples\Dapper.NetCoreExamples\DapperExample\DapperExample\bin\Debug\netcoreapp2.1\DapperExample.runtimeconfig.dev.json
+E:\GitHub projects\DapperExamples\Dapper.NetCoreExamples\DapperExample\DapperExample\bin\Debug\netcoreapp2.1\DapperExample.dll
+E:\GitHub projects\DapperExamples\Dapper.NetCoreExamples\DapperExample\DapperExample\bin\Debug\netcoreapp2.1\DapperExample.pdb
+E:\GitHub projects\DapperExamples\Dapper.NetCoreExamples\DapperExample\DapperExample\obj\Debug\netcoreapp2.1\DapperExample.csproj.CoreCompileInputs.cache
+E:\GitHub projects\DapperExamples\Dapper.NetCoreExamples\DapperExample\DapperExample\obj\Debug\netcoreapp2.1\DapperExample.RazorAssemblyInfo.cache
+E:\GitHub projects\DapperExamples\Dapper.NetCoreExamples\DapperExample\DapperExample\obj\Debug\netcoreapp2.1\DapperExample.RazorAssemblyInfo.cs
+E:\GitHub projects\DapperExamples\Dapper.NetCoreExamples\DapperExample\DapperExample\obj\Debug\netcoreapp2.1\DapperExample.AssemblyInfoInputs.cache
+E:\GitHub projects\DapperExamples\Dapper.NetCoreExamples\DapperExample\DapperExample\obj\Debug\netcoreapp2.1\DapperExample.AssemblyInfo.cs
+E:\GitHub projects\DapperExamples\Dapper.NetCoreExamples\DapperExample\DapperExample\obj\Debug\netcoreapp2.1\DapperExample.RazorTargetAssemblyInfo.cache
+E:\GitHub projects\DapperExamples\Dapper.NetCoreExamples\DapperExample\DapperExample\obj\Debug\netcoreapp2.1\DapperExample.dll
+E:\GitHub projects\DapperExamples\Dapper.NetCoreExamples\DapperExample\DapperExample\obj\Debug\netcoreapp2.1\DapperExample.pdb
